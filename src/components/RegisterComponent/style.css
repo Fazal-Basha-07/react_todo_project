@@ -1,0 +1,72 @@
+.form-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+body {
+    background-image: url('https://static.vecteezy.com/system/resources/previews/005/585/796/original/abstract-dark-purple-background-overlap-layer-on-dark-space-for-background-design-exclusive-wallpaper-design-for-poster-brochure-presentation-website-etc-vector.jpg');
+    background-position: center;
+}
+
+.form-container h2 {
+    text-align: center;
+    color: aliceblue;
+    font-family: monospace;
+    font-size: xx-large;
+}
+
+.reg-Btn {
+    margin-top: 15px;
+    background: #50303000;
+    font-size: 20px;
+    font-family: monospace;
+}
+
+.login-here p {
+    color: aliceblue;
+    text-align: center;
+}
+
+input {
+    width: 94%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a74500;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.error {
+    color: red;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}

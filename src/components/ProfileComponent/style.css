@@ -1,0 +1,79 @@
+.profile-container {
+    border-radius: 8px;
+    /* text-align: center; */
+  }
+  
+  .profile-section h3 {
+    color: cornsilk;
+    font-size: x-large;
+    font-family: monospace;
+  }
+  
+  .error-message {
+    color: cornsilk;
+    font-family: monospace;
+  }
+  
+  .btns-profile button {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(247deg, rgb(8 0 68) 0%, rgb(179 6 6) 82%, rgb(255 0 0) 100%);
+    color: cornsilk;
+    font-family: monospace;
+    font-size: x-large;
+  }
+  
+  .dashboard-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .user-info {
+    margin-bottom: 20px;
+    flex-direction: column;
+  }
+  
+  .user-image {
+    border-radius: 50%;
+    width: 100px;
+    height: 300px;
+  }
+  
+  .separator {
+    margin: 20px 0;
+  }
+  
+  .profile-details {
+    margin: 20px 0;
+  }
+  
+  /* .update-button {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(34deg, rgba(2, 0, 36, 1) 0%, rgba(121, 9, 9, 0.7791491596638656) 42%, rgba(2, 0, 36, 1) 100%);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 5px 10px;
+    cursor: pointer;
+  } */
+  
+  .btns-profile button:hover {
+    background: rgb(2, 0, 36) !important;
+    background: linear-gradient(247deg, rgb(8 0 68) 0%, rgb(179 6 6) 82%, rgb(255 0 0) 100%) !important;
+  }
+  
+  .update-form {
+    margin-top: 10px;
+  }
+  
+  .update-form input {
+    padding: 5px;
+    margin: 5px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: calc(100% - 12px);
+  }
+  
+  .update-form button {
+    margin-top: 10px;
+  }

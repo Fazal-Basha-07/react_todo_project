@@ -1,0 +1,267 @@
+Todo List Container
+/* .todo-container {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(247deg, rgb(8 0 68) 0%, rgb(179 6 6) 82%, rgb(255 0 0) 100%);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 25px auto auto auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+} */
+
+/* Input and Button Styles */
+.container input[type="text"] {
+    padding: 10px;
+    /* Padding for input */
+    border: 1px solid #ccc;
+    /* Light border */
+    border-radius: 5px;
+    /* Rounded corners */
+    width: 100%;
+    /* Full width */
+    box-sizing: border-box;
+    /* Include padding in width */
+}
+
+/* Button Styles */
+.container button {
+    padding: 10px;
+    /* Padding for buttons */
+    border: none;
+    /* No border */
+    border-radius: 5px;
+    /* Rounded corners */
+
+    /* Primary color */
+    color: white;
+    /* Text color */
+    cursor: pointer;
+    /* Pointer cursor */
+    transition: background-color 0.3s;
+    /* Smooth transition */
+}
+
+.container button:hover {
+    background: rgb(255, 255, 255);
+    background: linear-gradient(247deg, rgba(255, 255, 255, 1) 0%, rgba(182, 115, 115, 0.14889705882352944) 0%, rgba(0, 0, 0, 0.8295693277310925) 73%);
+    /* Darker on hover */
+}
+
+/* Filter Buttons */
+.container div {
+    /* display: flex; */
+    /* Flexbox for layout */
+    justify-content: space-between;
+    /* Space between buttons */
+}
+
+/* Todo List Styles */
+.container ul {
+    list-style-type: none;
+    /* Remove default list styles */
+    padding: 0;
+    /* No padding */
+    margin: 0;
+    /* No margin */
+}
+
+.container li {
+    display: flex;
+    /* Flexbox for each item */
+    justify-content: space-between;
+    /* Space between text and buttons */
+    align-items: center;
+    /* Center align vertically */
+    padding: 10px;
+    /* Padding for list items */
+    border-bottom: 1px solid #ddd;
+    /* Separator line */
+}
+
+.container li span {
+    flex-grow: 1;
+    /* Allow text to take available space */
+    cursor: pointer;
+    /* Pointer cursor for text */
+}
+
+.container li button {
+    margin-left: 10px;
+    /* Space between buttons */
+}
+
+/* Responsive Styles */
+@media (max-width: 600px) {
+    .container {
+        padding: 10px;
+        /* Less padding on small screens */
+    }
+
+    .container input[type="text"] {
+        font-size: 14px;
+        /* Smaller font size for input */
+    }
+
+    .container button {
+        font-size: 14px;
+        /* Smaller font size for buttons */
+    }
+}
+
+/* ----------------------------- */
+
+.todo-container {
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    width: 90%;
+    max-width: 500px;
+    margin: 0 auto;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(247deg, rgb(8 0 68) 0%, rgb(179 6 6) 82%, rgb(255 0 0) 100%); */
+
+    background: rgb(2, 0, 36);
+    background: linear-gradient(247deg, rgb(8 0 68) 0%, rgb(179 6 6) 82%, rgb(255 0 0) 100%);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 25px auto auto auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.todo-container input {
+    padding: 10px;
+    width: 94%;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.todo-container button {
+    padding: 10px 15px;
+    margin: 5px;
+    border: none;
+    border-radius: 4px;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(247deg, rgb(8 0 68) 0%, rgb(179 6 6) 82%, rgb(255 0 0) 100%);
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.todo-container button:hover {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(247deg, rgb(8 0 68) 0%, rgb(179 6 6) 82%, rgb(255 0 0) 100%);
+}
+
+.filter-buttons {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-bottom: 15px;
+    flex-wrap: wrap;
+}
+
+.btns {
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    align-content: space-around;
+    display: flex;
+}
+
+.todo-li {
+    background: #f0f8ff;
+    width: auto;
+}
+
+
+li {
+    justify-content: flex-start;
+}
+
+.todo-li button {
+    display: flex;
+    width: max-content;
+    text-align: center;
+    align-items: center;
+}
+
+.btns button,
+button {
+    font-family: monospace;
+    font-size: large;
+}
+
+.list-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.horizontal-line {
+    width: 1px;
+    background-color: #ccc;
+    margin: 0 20px;
+    height: auto;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    /* width: 45%; */
+}
+
+li {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 5px 0;
+}
+
+li span {
+    cursor: pointer;
+}
+
+li button {
+    margin-left: 10px;
+}
+
+@media (max-width: 600px) {
+    .todo-container {
+        padding: 15px;
+    }
+
+    input {
+        width: 100%;
+    }
+
+    .list-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .horizontal-line {
+        display: none;
+    }
+
+    ul {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .filter-buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+}

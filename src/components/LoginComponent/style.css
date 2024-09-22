@@ -1,0 +1,102 @@
+.form-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-container h2 {
+    text-align: center;
+    color: aliceblue;
+    font-family: monospace;
+    font-size: xx-large;
+  }
+  
+  .animated-button {
+    position: relative;
+    overflow: hidden;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    transition: background-color 0.3s ease;
+  }
+  
+  .animated-button:focus {
+    outline: none;
+  }
+  
+  .move-right {
+    animation: moveRight 0.5s forwards;
+  }
+  
+  @keyframes moveRight {
+    0% {
+      transform: translateX(0);
+    }
+  
+    100% {
+      transform: translateX(100%);
+    }
+  }
+  
+  .reg-Btn {
+    margin-top: 15px;
+    background: #50303000;
+    font-size: 20px;
+    font-family: monospace;
+    /* width: max-content; */
+  }
+  
+  .reg-here p {
+    color: aliceblue;
+    text-align: center;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    /* background-color: #28a745; */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background: rgb(2, 0, 36);
+    background: radial-gradient(circle, rgba(2, 0, 36, 1) 0%, rgba(121, 9, 9, 0.7791491596638656) 59%, rgba(36, 0, 0, 1) 100%);
+  }
+  
+  .error {
+    color: red;
+    text-align: center;
+  }
+  
+  p {
+    text-align: center;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  body {
+    background-image: url('https://static.vecteezy.com/system/resources/previews/005/585/796/original/abstract-dark-purple-background-overlap-layer-on-dark-space-for-background-design-exclusive-wallpaper-design-for-poster-brochure-presentation-website-etc-vector.jpg');
+    background-position: center;
+  }
+  .error-message{
+    font-family: monospace;
+    color: cornsilk;
+  }
